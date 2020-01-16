@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: roncoo-zuul
+eureka:
+  client:
+    service-url:
+      defaultZone:  http://localhost:8761/eureka/
+zuul:
+  routes:  #路由
+    delicious: #名称自定义
+      path: /delicious/** #外界访问服务的名称
+      service-id: roncoo-api #服务的名称 一般指服务消费者的名称
