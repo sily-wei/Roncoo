@@ -30,6 +30,10 @@ public class R {
         return r;
     }
 
+    public static R Ok(String msg,Object data){
+        return setR(200,msg,data);
+    }
+
     public static R Ok(Object data){
         return setR(ResultCode.OK.getVal(),"OK",data);
     }
