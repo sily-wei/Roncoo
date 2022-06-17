@@ -36,7 +36,7 @@
         <mybatisSpringBoot.version>2.1.1</mybatisSpringBoot.version>
         <swagger.version>2.9.2</swagger.version>
         <druid.version>1.1.20</druid.version>
-        <fastjson.version>1.2.58</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <aliyunsms.version>4.1.0</aliyunsms.version>
         <aliyumoss.version>3.8.0</aliyumoss.version>
         <fileupload.version>1.4</fileupload.version>
